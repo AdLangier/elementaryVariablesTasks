@@ -8,6 +8,7 @@ public class Zad4 {
         System.out.println("podaj liczbę całkowitą");
         int number = scanner.nextInt();
         System.out.println("ostatnia cyfra liczby to: ");
-        System.out.println(number%10);
+        System.out.println(number%10);                          // DO ZAPAMIĘTANIA !!!!!!!!!!!!!!!
+
     }
 }
