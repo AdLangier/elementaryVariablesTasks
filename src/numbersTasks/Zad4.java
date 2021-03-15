@@ -13,7 +13,7 @@ public class Zad4 {
         if (withdraw > amount) {
             System.out.println("Niepoprawna operacja");
         } else {
-            System.out.println("Pozostałe saldo: "+String.format("%.2f", balance)+" PLN");  //wyświetlanie miejsc po przecinku --> Zad13
+            System.out.println("Pozostałe saldo: " + String.format("%.2f", balance) + " PLN");  //wyświetlanie miejsc po przecinku --> Zad13
         }
     }
 }
