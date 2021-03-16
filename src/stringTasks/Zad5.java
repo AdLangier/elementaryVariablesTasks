@@ -8,6 +8,6 @@ public class Zad5 {
         System.out.println("Podaj słowo");
         String word = scanner.next();
 
-        System.out.println("Przedostatnia litera wyrazu to: "+word.charAt(word.length()-2));
+        System.out.println("Przedostatnia litera wyrazu to: "+word.charAt(word.length()-2)); // Nie wiem czemu -2 ale tak ma być :)
     }
 }
