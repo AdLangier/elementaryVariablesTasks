@@ -8,7 +8,7 @@ public class Zad1 {
         System.out.println("Podaj wyraz");
         String word = scanner.next();
 
-        System.out.println("Pierwsza litera tego wyrazu to "+word.charAt(0));
+        System.out.println("Pierwsza litera tego wyrazu to " + word.charAt(0));
     }
 
 }

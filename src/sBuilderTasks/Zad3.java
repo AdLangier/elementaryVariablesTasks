@@ -7,9 +7,9 @@ public class Zad3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj wyraz");
         String word = scanner.next();
-        StringBuilder reversedWord = new StringBuilder(word);     //Zawsze trzeba utworzyć nowy obiekt StringBuilder, dopiero potem wykonać metodę reverse
+        StringBuilder reversedWord = new StringBuilder(word);     //Zawsze trzeba utworzyć nowy obiekt StringBuilder, dopiero potem wykonać metodę reverse()
         reversedWord.reverse();
-        System.out.println("Podany wyraz odwrotnie to: "+reversedWord);
+        System.out.println("Podany wyraz odwrotnie to: " + reversedWord);
 
     }
 }

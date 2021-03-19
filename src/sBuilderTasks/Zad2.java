@@ -8,9 +8,9 @@ public class Zad2 {
         System.out.println("Podaj polskie imię");
         String name = scanner.next();
 
-        if(name.endsWith("a")){                          //zakładamy, że imię żeńskie zawsze kończy się na "a"
+        if (name.endsWith("a")) {                          //zakładamy, że imię żeńskie zawsze kończy się na "a"
             System.out.println("Imię jest żeńskie");
-        }else{
+        } else {
             System.out.println("Imię jest męskie");
         }
     }
