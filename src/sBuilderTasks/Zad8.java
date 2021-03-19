@@ -9,6 +9,6 @@ public class Zad8 {                                              //Trudne -- met
         String playerData = scanner.nextLine();
         int a = playerData.indexOf(" ");
         int b = playerData.indexOf(",");
-        System.out.println("Nazwisko: "+playerData.substring(a,b));
+        System.out.println("Nazwisko: " + playerData.substring(a, b));
     }
 }
