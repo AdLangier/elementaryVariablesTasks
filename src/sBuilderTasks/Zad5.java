@@ -9,9 +9,9 @@ public class Zad5 {
         String code = scanner.nextLine();
         StringBuilder postcode = new StringBuilder(code);
 
-        if (code.charAt(2) != '-'){                                   //użycie typu "char"
-            System.out.println(postcode.insert(2,'-'));
-        }else{
+        if (code.charAt(2) != '-') {                                   //użycie typu "char"
+            System.out.println(postcode.insert(2, '-'));
+        } else {
             System.out.println(code);
         }
     }
